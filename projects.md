@@ -1,7 +1,8 @@
 ---
 title: Projects
 layout: services
-description: Services
+description: Ongoing projects in the GrowAI community
+permalink: "/projects/"
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true

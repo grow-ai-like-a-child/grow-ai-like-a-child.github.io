@@ -17,12 +17,20 @@ collections:
   services:
     output: true
     sort_by: weight
+  projects:
+    output: true
+    sort_by: weight
   team:
     output: true
 
 defaults:
   - scope:
-      path: ""
+      path: "_services"
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: "_projects"
       type: "services"
     values:
       layout: "service"
