@@ -1,8 +1,8 @@
 ---
-title: Team
+title: Members
 layout: teams
-description: Team
-permalink: "/team/"
+description: Members
+permalink: "/member/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
