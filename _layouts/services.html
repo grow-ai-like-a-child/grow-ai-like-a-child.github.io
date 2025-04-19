@@ -19,16 +19,8 @@ bodyClass: "page-services"
 </div>
 
 <div class="container pt-6 pb-6">
-   <!-- <div class="row"> -->
-    {% assign all_categories = site.services | map: "categories" | join: "," | split: "," | map: "strip" | uniq | sort %}
-    {% for category in all_categories %}
-    {% unless category == "" %}
-    <h2 class="mb-4">{{ category | capitalize }}</h2>
-      <div class="row">
-        {% assign filtered_services = site.services | where_exp: "item", "item.category contains category" %}
-        {% for service in filtered_services %}
-
-    <!-- {% for service in site.services %} -->
+  <div class="row">
+    {% for service in site.services %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
