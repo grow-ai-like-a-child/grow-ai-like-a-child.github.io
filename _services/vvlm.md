@@ -17,7 +17,7 @@ Knowing others' intentions and taking others' perspectives are two core componen
 
 
 <summary><strong>Cite Us</strong></summary>
-```bibtex
+```
   @misc{gao2025visionlanguagemodelswant,
         title={Vision Language Models See What You Want but not What You See}, 
         author={Qingying Gao and Yijiang Li and Haiyun Lyu and Haoran Sun and Dezhi Luo and Hokin Deng},
@@ -27,4 +27,4 @@ Knowing others' intentions and taking others' perspectives are two core componen
         primaryClass={cs.AI},
         url={https://arxiv.org/abs/2410.00324}, 
   }
-
+```
