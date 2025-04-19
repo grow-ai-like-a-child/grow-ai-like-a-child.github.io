@@ -3,7 +3,7 @@ title: Growing AI like a Child, at Scale
 layout: home
 description: description
 intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: false
+intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
