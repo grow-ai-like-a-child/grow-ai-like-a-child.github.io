@@ -7,6 +7,11 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
+# News
+- 2025.xx.xx Our work xxx is accepted to xxx.
+- 2025.xx.xx Our work xxx is accepted to xxx.
+- 2025.xx.xx Our work xxx is accepted to xxx.
+
 
 # About GrowAI
 
