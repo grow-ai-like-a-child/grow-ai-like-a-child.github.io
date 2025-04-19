@@ -7,7 +7,7 @@ bodyClass: "page-home"
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <h1 class="title"> {{ page.title }} </h1>
+        <h1 class=""> {{ page.title }} </h1>
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
         {% endif %}
@@ -50,7 +50,7 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Projects</a>
+        <a class="button button-primary" href="{{ "projects" | relative_url }}">View All Projects</a>
       </div>
     </div>
   </div>
