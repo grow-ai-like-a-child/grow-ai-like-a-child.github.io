@@ -22,7 +22,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: "projects"
       type: "services"
     values:
       layout: "service"
