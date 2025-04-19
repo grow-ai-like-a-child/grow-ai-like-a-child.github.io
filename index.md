@@ -17,5 +17,7 @@ Our core cognition unravels through a specific developmental trajectory as we gr
 Instead of putting growing up and scaling up into opposite camps, we argue the next step towards human-like artificial general intelligence is to grow AI like a child, at scale. We come together as GrowAI, an open-source community uniting researchers from computer science, cognitive science, psychology, linguistics, philosophy, and beyond. Our ongoing research focuses on the following areas:
 
 > **Cognitive Competence:** Investigating and evaluating the cognitive behaviors and limitations of pre-trained models beyond leaderboard chasing.
+
 > **Core Knowledge:** Identifying and building fundamental knowledge and core cognitive scenarios for benchmarking and evaluating human-like intelligence.
+
 > **Developmental AI:** Understanding the developmental trajectories and training dynamics of scalable systems toward human capabilities.
