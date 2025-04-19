@@ -1,6 +1,7 @@
 ---
 title: "VLMs See What You Want but not What You See"
 date: 2025-04-19T12:33:46+10:00
+category: "Perspective"
 weight: 1
 ---
 `ICLR`
@@ -14,7 +15,8 @@ Knowing others' intentions and taking others' perspectives are two core componen
 
 ![Examples and Model Performances in IntentBench(left) and PerspectBench(right)](/images/projects/vlmsee_case_all.png)
 
-Cite us:
+
+<summary><strong>Cite Us</strong></summary>
 ```bibtex
   @misc{gao2025visionlanguagemodelswant,
         title={Vision Language Models See What You Want but not What You See}, 
@@ -25,4 +27,4 @@ Cite us:
         primaryClass={cs.AI},
         url={https://arxiv.org/abs/2410.00324}, 
   }
-```
+
