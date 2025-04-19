@@ -3,8 +3,8 @@ title: "Qingying Gao"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/kaiagao.jpeg"
 jobtitle: "PhD Student at Johns Hopkins University"
-linkedinurl: "https://kaiagaoqy.github.io/personalwebsite/"
-websiteurl:
+linkedinurl: 
+websiteurl: "https://kaiagaoqy.github.io/personalwebsite/"
 weight: 7
 ---
 

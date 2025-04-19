@@ -10,4 +10,4 @@ intro_image_hide_on_mobile: true
 
 # Projects
 
-Ongoing projects in the GrowAI community include:
+Ongoing projects in the GrowAI community
