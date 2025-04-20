@@ -37,7 +37,10 @@ bodyClass: "page-services"
           <div class="service service-summary">
             <div class="service-content">
               <h3 class="service-title">
-                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                <a href="{{ service.url | relative_url }}">{{ service.title }}</a> 
+                {% if service.submitto %}
+                  <span class="submitto-tag">{{ service.submitto }}</span>
+                {% endif %}
               </h3>
               <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
             </div>

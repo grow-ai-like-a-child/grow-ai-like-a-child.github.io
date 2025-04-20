@@ -27,3 +27,17 @@
     margin-top: auto;
   }
 }
+
+.submitto-tag {
+  display: inline-block;
+  background-color: #444;     // Dark gray background
+  color: white;
+  font-size: 0.75rem;         // Smaller than normal text
+  padding: 2px 8px;
+  margin-left: 0.5rem;
+  border-radius: 6px;
+  vertical-align: middle;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: nowrap;
+}
