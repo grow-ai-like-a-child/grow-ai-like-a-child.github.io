@@ -85,7 +85,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.imageurl | relative_url }}" width="80" height="80" /></div>
           {% endif %}
           <h2 class="feature-title">
             <a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h2>
