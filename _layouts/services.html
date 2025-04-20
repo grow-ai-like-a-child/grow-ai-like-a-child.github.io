@@ -43,7 +43,7 @@ bodyClass: "page-services"
   {% assign all_categories = site.services | map: "category" | uniq | sort %}
 
   {% for category in all_categories %}
-    {% unless category == "" %}
+    {% unless category == blank %}
 
     <h2 class="mb-4">{{ category }}</h2>
     <div class="row">
