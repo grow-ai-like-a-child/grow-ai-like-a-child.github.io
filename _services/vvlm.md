@@ -3,7 +3,6 @@ title: "VLMs See What You Want but not What You See"
 date: 2025-04-19T12:33:46+10:00
 category: "Perspective"
 weight: 1
-submitto: "ICLR Bi-Align Workshop"
 ---
 `ICLR`
 > **KEYWORDS**: Perspective Taking, Intentionality Understanding
