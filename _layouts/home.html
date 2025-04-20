@@ -80,12 +80,12 @@ bodyClass: "page-home"
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-      {% assign limit = site.home.limit_services | default: 3 %}
-      {% for feature in in site.services limit: limit %}
+      {% assign limits = site.home.limit_services | default: 3 %}
+      {% for feature in site.services limit: limits %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           {% if feature.imageurl %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.imageurl | relative_url }}" width="80" height="80" /></div>
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.imageurl | relative_url }}" width="80" height="80"/></div>
           {% endif %}
           <h2 class="feature-title">
             <a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h2>
