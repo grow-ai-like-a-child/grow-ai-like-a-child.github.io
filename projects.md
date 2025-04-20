@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: services
+layout: projects
 description: Ongoing projects in the GrowAI community
 permalink: "/projects/"
 intro_image: "images/illustrations/project-banner.png"
