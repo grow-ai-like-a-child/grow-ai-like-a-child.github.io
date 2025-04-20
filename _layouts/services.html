@@ -38,24 +38,34 @@ bodyClass: "page-services"
 
 
 <div class="container pt-6 pb-6">
-   {% assign all_categories = site.services | map: "category" | join: "," | split: "," | map: "strip" | uniq | sort %}
-   {% for category in all_categories %}
-   {% unless category == "" %}
-   <h2 class="mb-4">{{ category | capitalize }}</h2>
-     <div class="row">
-       {% assign filtered_services = site.services | where_exp: "item", "item.category contains category" %}
-       {% for service in filtered_services %}
 
-   <div class="col-12 col-md-6 mb-3">
-     <div class="service service-summary">
-       <div class="service-content">
-         <h2 class="service-title">
-           <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-         </h2>
-         <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-       </div>
-     </div>
-   </div>
-   {% endfor %}
- </div>
-</div>
+
+  {% assign all_categories = site.services | map: "category" | uniq | sort %}
+
+  {% for category in all_categories %}
+    {% unless category == "" %}
+
+    <h2 class="mb-4">{{ category }}</h2>
+    <div class="row">
+
+      {% assign filtered_services = site.services | where: "category", category %}
+
+      {% for service in filtered_services %}
+        <div class="col-12 col-md-6 mb-3">
+          <div class="service service-summary">
+            <div class="service-content">
+              <h3 class="service-title">
+                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              </h3>
+              <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div> <!-- /.row -->
+
+    {% endunless %}
+  {% endfor %}
+
+</div> <!-- /.container -->
